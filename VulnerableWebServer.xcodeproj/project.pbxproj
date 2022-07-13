@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E7778A7D9F557593BFE46D /* Pods_VulnerableWebServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639FF29E1D6FD8FC19DA4755 /* Pods_VulnerableWebServer.framework */; };
+		4A5F175A287C167100D6CB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F1759287C167100D6CB34 /* AppDelegate.swift */; };
+		4A5F175C287C167100D6CB34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F175B287C167100D6CB34 /* SceneDelegate.swift */; };
+		4A5F175E287C167100D6CB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F175D287C167100D6CB34 /* ViewController.swift */; };
+		4A5F1761287C167100D6CB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F175F287C167100D6CB34 /* Main.storyboard */; };
+		4A5F1763287C167200D6CB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F1762287C167200D6CB34 /* Assets.xcassets */; };
+		4A5F1766287C167200D6CB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F1764287C167200D6CB34 /* LaunchScreen.storyboard */; };
+		4A5F1771287C167200D6CB34 /* VulnerableWebServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F1770287C167200D6CB34 /* VulnerableWebServerTests.swift */; };
+		4A5F177B287C167200D6CB34 /* VulnerableWebServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F177A287C167200D6CB34 /* VulnerableWebServerUITests.swift */; };
+		4A5F177D287C167200D6CB34 /* VulnerableWebServerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F177C287C167200D6CB34 /* VulnerableWebServerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A5F176D287C167200D6CB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5F174E287C167100D6CB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5F1755287C167100D6CB34;
+			remoteInfo = VulnerableWebServer;
+		};
+		4A5F1777287C167200D6CB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5F174E287C167100D6CB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5F1755287C167100D6CB34;
+			remoteInfo = VulnerableWebServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A5F1756287C167100D6CB34 /* VulnerableWebServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VulnerableWebServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5F1759287C167100D6CB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A5F175B287C167100D6CB34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A5F175D287C167100D6CB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A5F1760287C167100D6CB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A5F1762287C167200D6CB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A5F1765287C167200D6CB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A5F1767287C167200D6CB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5F176C287C167200D6CB34 /* VulnerableWebServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VulnerableWebServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5F1770287C167200D6CB34 /* VulnerableWebServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnerableWebServerTests.swift; sourceTree = "<group>"; };
+		4A5F1776287C167200D6CB34 /* VulnerableWebServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VulnerableWebServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5F177A287C167200D6CB34 /* VulnerableWebServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnerableWebServerUITests.swift; sourceTree = "<group>"; };
+		4A5F177C287C167200D6CB34 /* VulnerableWebServerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnerableWebServerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AC1EA6C287C1C2300DC21E5 /* WebServer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebServer-Bridging-Header.h"; sourceTree = "<group>"; };
+		50DEE0B238197F4C809E7F49 /* Pods-VulnerableWebServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VulnerableWebServer.release.xcconfig"; path = "Target Support Files/Pods-VulnerableWebServer/Pods-VulnerableWebServer.release.xcconfig"; sourceTree = "<group>"; };
+		61F87783D633C8ECBE61D7FB /* Pods-VulnerableWebServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VulnerableWebServer.debug.xcconfig"; path = "Target Support Files/Pods-VulnerableWebServer/Pods-VulnerableWebServer.debug.xcconfig"; sourceTree = "<group>"; };
+		639FF29E1D6FD8FC19DA4755 /* Pods_VulnerableWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VulnerableWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5F1753287C167100D6CB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E7778A7D9F557593BFE46D /* Pods_VulnerableWebServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5F1769287C167200D6CB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5F1773287C167200D6CB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5F174D287C167100D6CB34 = {
+			isa = PBXGroup;
+			children = (
+				4A5F1758287C167100D6CB34 /* VulnerableWebServer */,
+				4A5F176F287C167200D6CB34 /* VulnerableWebServerTests */,
+				4A5F1779287C167200D6CB34 /* VulnerableWebServerUITests */,
+				4A5F1757287C167100D6CB34 /* Products */,
+				CA9046A20F76396212B4AD55 /* Pods */,
+				5C708AE8A1FE7AA99F5FB517 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5F1757287C167100D6CB34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F1756287C167100D6CB34 /* VulnerableWebServer.app */,
+				4A5F176C287C167200D6CB34 /* VulnerableWebServerTests.xctest */,
+				4A5F1776287C167200D6CB34 /* VulnerableWebServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5F1758287C167100D6CB34 /* VulnerableWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F1759287C167100D6CB34 /* AppDelegate.swift */,
+				4A5F175B287C167100D6CB34 /* SceneDelegate.swift */,
+				4A5F175D287C167100D6CB34 /* ViewController.swift */,
+				4A5F175F287C167100D6CB34 /* Main.storyboard */,
+				4A5F1762287C167200D6CB34 /* Assets.xcassets */,
+				4A5F1764287C167200D6CB34 /* LaunchScreen.storyboard */,
+				4A5F1767287C167200D6CB34 /* Info.plist */,
+				4AC1EA6C287C1C2300DC21E5 /* WebServer-Bridging-Header.h */,
+			);
+			path = VulnerableWebServer;
+			sourceTree = "<group>";
+		};
+		4A5F176F287C167200D6CB34 /* VulnerableWebServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F1770287C167200D6CB34 /* VulnerableWebServerTests.swift */,
+			);
+			path = VulnerableWebServerTests;
+			sourceTree = "<group>";
+		};
+		4A5F1779287C167200D6CB34 /* VulnerableWebServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F177A287C167200D6CB34 /* VulnerableWebServerUITests.swift */,
+				4A5F177C287C167200D6CB34 /* VulnerableWebServerUITestsLaunchTests.swift */,
+			);
+			path = VulnerableWebServerUITests;
+			sourceTree = "<group>";
+		};
+		5C708AE8A1FE7AA99F5FB517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				639FF29E1D6FD8FC19DA4755 /* Pods_VulnerableWebServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA9046A20F76396212B4AD55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61F87783D633C8ECBE61D7FB /* Pods-VulnerableWebServer.debug.xcconfig */,
+				50DEE0B238197F4C809E7F49 /* Pods-VulnerableWebServer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5F1755287C167100D6CB34 /* VulnerableWebServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5F1780287C167200D6CB34 /* Build configuration list for PBXNativeTarget "VulnerableWebServer" */;
+			buildPhases = (
+				B92D7B9B9DFE0C3A5CCA2CE3 /* [CP] Check Pods Manifest.lock */,
+				4A5F1752287C167100D6CB34 /* Sources */,
+				4A5F1753287C167100D6CB34 /* Frameworks */,
+				4A5F1754287C167100D6CB34 /* Resources */,
+				80DDF49ECB4B3E1DAB736F5C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VulnerableWebServer;
+			productName = VulnerableWebServer;
+			productReference = 4A5F1756287C167100D6CB34 /* VulnerableWebServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A5F176B287C167200D6CB34 /* VulnerableWebServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5F1783287C167200D6CB34 /* Build configuration list for PBXNativeTarget "VulnerableWebServerTests" */;
+			buildPhases = (
+				4A5F1768287C167200D6CB34 /* Sources */,
+				4A5F1769287C167200D6CB34 /* Frameworks */,
+				4A5F176A287C167200D6CB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A5F176E287C167200D6CB34 /* PBXTargetDependency */,
+			);
+			name = VulnerableWebServerTests;
+			productName = VulnerableWebServerTests;
+			productReference = 4A5F176C287C167200D6CB34 /* VulnerableWebServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A5F1775287C167200D6CB34 /* VulnerableWebServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5F1786287C167200D6CB34 /* Build configuration list for PBXNativeTarget "VulnerableWebServerUITests" */;
+			buildPhases = (
+				4A5F1772287C167200D6CB34 /* Sources */,
+				4A5F1773287C167200D6CB34 /* Frameworks */,
+				4A5F1774287C167200D6CB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A5F1778287C167200D6CB34 /* PBXTargetDependency */,
+			);
+			name = VulnerableWebServerUITests;
+			productName = VulnerableWebServerUITests;
+			productReference = 4A5F1776287C167200D6CB34 /* VulnerableWebServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5F174E287C167100D6CB34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4A5F1755287C167100D6CB34 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4A5F176B287C167200D6CB34 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4A5F1755287C167100D6CB34;
+					};
+					4A5F1775287C167200D6CB34 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4A5F1755287C167100D6CB34;
+					};
+				};
+			};
+			buildConfigurationList = 4A5F1751287C167100D6CB34 /* Build configuration list for PBXProject "VulnerableWebServer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A5F174D287C167100D6CB34;
+			productRefGroup = 4A5F1757287C167100D6CB34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A5F1755287C167100D6CB34 /* VulnerableWebServer */,
+				4A5F176B287C167200D6CB34 /* VulnerableWebServerTests */,
+				4A5F1775287C167200D6CB34 /* VulnerableWebServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5F1754287C167100D6CB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5F1766287C167200D6CB34 /* LaunchScreen.storyboard in Resources */,
+				4A5F1763287C167200D6CB34 /* Assets.xcassets in Resources */,
+				4A5F1761287C167100D6CB34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5F176A287C167200D6CB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5F1774287C167200D6CB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80DDF49ECB4B3E1DAB736F5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VulnerableWebServer/Pods-VulnerableWebServer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VulnerableWebServer/Pods-VulnerableWebServer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VulnerableWebServer/Pods-VulnerableWebServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92D7B9B9DFE0C3A5CCA2CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VulnerableWebServer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5F1752287C167100D6CB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5F175E287C167100D6CB34 /* ViewController.swift in Sources */,
+				4A5F175A287C167100D6CB34 /* AppDelegate.swift in Sources */,
+				4A5F175C287C167100D6CB34 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5F1768287C167200D6CB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5F1771287C167200D6CB34 /* VulnerableWebServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5F1772287C167200D6CB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5F177D287C167200D6CB34 /* VulnerableWebServerUITestsLaunchTests.swift in Sources */,
+				4A5F177B287C167200D6CB34 /* VulnerableWebServerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A5F176E287C167200D6CB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5F1755287C167100D6CB34 /* VulnerableWebServer */;
+			targetProxy = 4A5F176D287C167200D6CB34 /* PBXContainerItemProxy */;
+		};
+		4A5F1778287C167200D6CB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5F1755287C167100D6CB34 /* VulnerableWebServer */;
+			targetProxy = 4A5F1777287C167200D6CB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A5F175F287C167100D6CB34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5F1760287C167100D6CB34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A5F1764287C167200D6CB34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5F1765287C167200D6CB34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A5F177E287C167200D6CB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A5F177F287C167200D6CB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5F1781287C167200D6CB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F87783D633C8ECBE61D7FB /* Pods-VulnerableWebServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZNL2M84RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VulnerableWebServer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestrisolutions.VulnerableWebServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A5F1782287C167200D6CB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50DEE0B238197F4C809E7F49 /* Pods-VulnerableWebServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZNL2M84RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VulnerableWebServer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestrisolutions.VulnerableWebServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A5F1784287C167200D6CB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZNL2M84RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestrisolutions.VulnerableWebServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VulnerableWebServer.app/VulnerableWebServer";
+			};
+			name = Debug;
+		};
+		4A5F1785287C167200D6CB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZNL2M84RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestrisolutions.VulnerableWebServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VulnerableWebServer.app/VulnerableWebServer";
+			};
+			name = Release;
+		};
+		4A5F1787287C167200D6CB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZNL2M84RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestrisolutions.VulnerableWebServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VulnerableWebServer;
+			};
+			name = Debug;
+		};
+		4A5F1788287C167200D6CB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZNL2M84RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nestrisolutions.VulnerableWebServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VulnerableWebServer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5F1751287C167100D6CB34 /* Build configuration list for PBXProject "VulnerableWebServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5F177E287C167200D6CB34 /* Debug */,
+				4A5F177F287C167200D6CB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5F1780287C167200D6CB34 /* Build configuration list for PBXNativeTarget "VulnerableWebServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5F1781287C167200D6CB34 /* Debug */,
+				4A5F1782287C167200D6CB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5F1783287C167200D6CB34 /* Build configuration list for PBXNativeTarget "VulnerableWebServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5F1784287C167200D6CB34 /* Debug */,
+				4A5F1785287C167200D6CB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5F1786287C167200D6CB34 /* Build configuration list for PBXNativeTarget "VulnerableWebServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5F1787287C167200D6CB34 /* Debug */,
+				4A5F1788287C167200D6CB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A5F174E287C167100D6CB34 /* Project object */;
+}

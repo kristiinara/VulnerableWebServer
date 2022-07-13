@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C439ECA2-9D62-4648-95ED-94CDB07A3A23"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA9BB256-A686-4CE7-B2ED-8E25AECAFA8C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/GCDWebServer/GCDWebUploader/GCDWebUploader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "327"
+            endingLineNumber = "327"
+            landmarkName = "-moveItem:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA9BB256-A686-4CE7-B2ED-8E25AECAFA8C - 1ed9bf90b33e53c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GCDWebUploader(Methods) moveItem:]"
+                  moduleName = "GCDWebServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kristiina/Phd/Experiments/VulnerableApps/VulnerableWebServer/Pods/GCDWebServer/GCDWebUploader/GCDWebUploader.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "327"
+                  endingLineNumber = "327"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "EA9BB256-A686-4CE7-B2ED-8E25AECAFA8C - 1ed9bf90b33e5224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GCDWebUploader(Methods) moveItem:]"
+                  moduleName = "GCDWebServer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kristiina/Phd/Experiments/VulnerableApps/VulnerableWebServer/Pods/GCDWebServer/GCDWebUploader/GCDWebUploader.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "328"
+                  endingLineNumber = "328"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B758F71-BB19-4628-AE84-2339880A7774"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/GCDWebServer/GCDWebUploader/GCDWebUploader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "-initWithUploadDirectory:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
